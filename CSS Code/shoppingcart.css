@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+/* Navigation Bar CSS Starting */
+.fulllogo{
+    height: 110px;
+    margin-left: 150px;
+    margin-top: -25px;
+}
+.flex{
+    display: flex;
+    height: 70px;
+    width: 100%;
+    background-color: rgb(45,45,45);
+}
+.navbar{
+    display: flex;
+}
+.navbar li{
+    list-style-type: none;
+    color: white;
+}
+.li1,.li2,.li3,.li4{
+    margin-top: 26px;
+
+}
+.li1{
+    margin-left: 100px;
+}
+.li2,.li3,.li4{
+    margin-left: 30px;
+}
+.img1,.img2,.img3{
+    height: 26px;
+}
+.img1{
+    margin-left: 35px;
+    margin-top: 20px;
+}
+.img2,.img3{
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.shopnow{
+    margin-left: 90px;
+    width: 180px;
+    padding-top: 10px ;
+    padding-bottom: 10px ;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: 3px solid red;
+    margin-top: 15px;
+    font-size: 17px
+}
+/* Navigation Bar CSS Ending */
+/* Footer Css Starting*/
+.column{
+    display: flex;
+    height: 400px;
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: rgb(14, 14, 14);
+}
+.column2, .column3, .column4{
+    list-style-type: none;
+    color: white;
+    line-height: 1.8;
+    margin-left: 210px;
+    padding-top: 95px;
+}
+.footerimage{
+    height: 110px;
+    margin-left: 110px;
+    padding-top: 50px;
+}
+.footerparagraph{
+    font-family: "Genos", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+}
+.footerbutton{
+    background-color: red;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    width: 45px;
+    height: 23px;
+}
+.diffcolor{
+    color: rgb(182, 182, 182);
+}
+.lastpart{
+    height: 50px;
+    background-color: black;
+    width: 100%;
+}
+.lastparagraph{
+    color: white;
+    padding-left: 190px;
+    padding-top: 14px;
+}
+.lastimg1{
+    height: 26px;
+    margin-left: 1000px;
+}
+
+.lastimg2{
+    height: 28px;
+    margin-left: 20px;
+}
+.lastimgg{
+    margin-top: -23px;
+}
+.lastimg4{
+    height: 27px;
+    margin-left: 20px;
+}
+.lastimgg3{
+    height: 37px;
+}
+.hii{
+    margin-top: -47px;
+    margin-left: 1153px;
+}
+.column2,.column3,.column4{
+    cursor: pointer;
+}
+/* Footer Css Ending*/

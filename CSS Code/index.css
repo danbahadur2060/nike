@@ -1,0 +1,610 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+    background-color: black;
+}
+/* Main Page CSS Starting */
+/* Navigation Bar CSS Starting */
+.fulllogo{
+    height: 110px;
+    margin-left: 150px;
+    margin-top: -25px;
+}
+.flex{
+    display: flex;
+    height: 70px;
+    width: 100%;
+    background-color: rgb(45,45,45);
+}
+.navbar{
+    display: flex;
+}
+.navbar li{
+    list-style-type: none;
+    color: white;
+}
+.li1,.li2,.li3,.li4{
+    margin-top: 26px;
+
+}
+.li1{
+    margin-left: 100px;
+}
+.li2,.li3,.li4{
+    margin-left: 30px;
+}
+.img1,.img2,.img3{
+    height: 26px;
+}
+.img1{
+    margin-left: 35px;
+    margin-top: 20px;
+}
+.img2,.img3{
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.shopnow{
+    margin-left: 90px;
+    width: 180px;
+    padding-top: 10px ;
+    padding-bottom: 10px ;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: 3px solid red;
+    margin-top: 15px;
+    font-size: 17px
+}
+/* Navigation Bar CSS Ending */
+.blackk{
+    height: 573px;
+    width: 100%;
+    background-color: black;
+    /* margin-top: -10px; */
+    padding-top: 1px;
+}
+.headingg{
+    margin-left: 180px;
+    margin-top: 100px;
+    font-size: 55px;
+    color: white;
+    font-weight: 800;
+    font-family: "Genos", sans-serif;
+}
+.justt{
+    width: 140px;
+    height: 40px;
+    font-size: 19px;
+    border-radius: 15px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid red;
+    margin-left: 510px;
+}
+.just{
+    margin-top: -120px;
+}
+.paragraph{
+    margin-left: 180px;
+    margin-top: 25px;
+    font-size: 19px;
+    color: white;
+    font-family: "Genos", sans-serif;
+}
+.btn1{
+    height: 40px;
+    width: 170px;
+    border-radius: 15px;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    color: white;
+    border-bottom-color: rgb(255, 0, 0) ;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    background-color: rgb(45, 45, 45);
+    margin-top: 60px;
+    margin-left: 180px;
+}
+.btn2{
+    height: 40px;
+    width: 170px;
+    border-radius: 15px;
+    margin-left: 20px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid red;
+}
+
+.comfort{
+    font-size: 25px;
+    margin-left: 30px;
+    margin-top: 50px;
+    color: white;
+}
+.pp1{
+    margin-left: 28px;
+    color: white;
+}
+.style{
+    font-size: 25px;
+    margin-left: 320px;
+    margin-top: -67px;
+    color: white;
+}
+.pp2{
+    margin-left: 280px;
+    /* margin-top: -66px; */
+    color: white;
+}
+.line{
+    height: 100px;
+    width: 2px;
+    background-color: white;
+    margin-top: -76px;
+    margin-left: 220px;
+}
+.gg1{
+    height: 16px;
+}
+.g1{
+    margin-top: -117px;
+    margin-left: 342px;
+}
+.g2{
+    margin-left: 596px;
+    margin-top: -22px;
+}
+.jordan{
+    margin-left: 730px;
+    height: 280px;
+}
+.jordann{
+    margin-top: -260px;
+}
+.dyk{
+    width: 350px;
+    height: 55px;
+    background-color: rgb(45, 45, 45);
+    border-radius: 20px;
+    margin-top: -350px;
+    margin-left: 850px;
+}
+.did{
+    color: white;
+    padding-top: 8px;
+    padding-left: 10px;
+}
+.line{
+    width: 420px;
+    height: 2px;
+    background-color: red;
+    margin-top: -80px;
+    margin-top: 350px;
+}
+.jordannn{
+    height: 100px;
+    margin-left: 415px;
+    margin-top: -55px;
+}
+.line1{
+    width: 420px;
+    height: 2px;
+    background-color: red;
+    margin-left: 720px;
+}
+/* Main Page CSS Ending */
+
+/* Grid CSS Starting */
+.bo{
+    height:700px;
+    width: 100%;
+    margin-top: -70px;
+   
+}
+.latest{
+    font-size: 40px;
+    margin-top: 80px;
+    text-align:center;
+    font-family: "Genos", sans-serif;
+}
+.slogan{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: "Genos", sans-serif;
+
+}
+.joking{
+    font-family: "Genos", sans-serif;
+    font-weight: 800;
+}
+.grid{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: -45px;
+}
+.gradient1, .gradient2, .gradient3{
+    height: 400px;
+    width: 300px;
+    background-color: rgb(14,14, 14);
+    align-items: center;
+    border-radius: 20px;
+    margin: 100px auto 0;
+    position:relative;
+}
+.gradient1::before,.gradient2::before,.gradient3::before,
+.gradient1::after,.gradient2::after,.gradient3::after{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background: linear-gradient(45deg, #fb0094,#0000ff,#00ff00,#ffff00,#fb0094,#0000ff,#00ff00,#ff0000);
+    background-size: 400% 400%;
+    width:calc(100% + 6px);
+    height: calc(100% + 6px);
+    border-radius: 20px;
+    z-index: -1;
+    animation: animatee 2s ease alternate infinite;
+}
+.gradient1::after{
+    filter: blur(20px);
+}
+.gradient2::after{
+    filter: blur(20px);
+}
+.gradient3::after{
+    filter: blur(20px);
+}
+@keyframes animatee{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    0%{
+        background-position: 0% 50%;
+    }
+}
+.gridimage{
+    height: 200px;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.hello{
+    color: white;
+    font-size: 20px;
+    margin-left: 120px;
+    margin-top: 10px;
+}
+.gridbtn{
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-left: 75px;
+    margin-top: 15px;
+    border:none;
+    outline: none;
+}
+.gridbtn:hover{
+    border-left:none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 4px solid red;
+    outline: none;
+    color: red;
+    transition: 0.002s;
+    box-shadow: 2px 3px 7px darkgrey;
+}
+/* Grid CSS Ending */
+/* Scroller-1 CSS Starting */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bodyy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: rgb(14, 14, 14);
+    margin-top: -100px;
+
+}
+.scroll{
+    position: relative;
+    display: flex;
+    width: 900px;
+    overflow: hidden;
+    mask-image: linear-gradient(90deg, transparent, rgb(255, 255, 255) 20%,rgb(255, 255, 255) 80%,transparent);
+    /* -webkit-mask-image: linear-gradient(90deg, transparent, rgb(255, 255, 255) 20%,rgb(255, 255, 255) 80%,transparent); */
+}
+.scroll div{
+      white-space: nowrap;
+      animation: animate var(--t) linear infinite;
+      animation-delay: calc(var(--t) * -1);
+}
+.scroll div:nth-child(2){
+    animation: animate2 var(--t) linear infinite;
+    animation-delay: calc(var(--t) / -2);
+}
+@keyframes animate{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-100%);
+
+    }
+}
+@keyframes animate2{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-200%);
+
+    }
+}
+.scroll div span{
+    display: inline-flex;
+    margin: 10px;
+    background-color: rgb(58, 56, 56);
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.scroll div span:hover{
+    transform: scale(1.1);
+}
+/* Scroller-1 CSS Ending */
+/* Content-1 Css Starting*/
+.contentt{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+}
+.AF1LV{
+    margin-top: 60px;
+    margin-left: 0px;
+}
+.off{
+    color: white;
+    font-family: "Genos", sans-serif;
+    font-size: 50px;
+    margin-top: -350px;
+    margin-left: 580px;
+}
+.offf{
+    color: rgb(204, 204, 204);
+    font-size: 30px;
+    font-family: "Genos", sans-serif;
+    font-weight: 700;
+    margin-left: 480px;
+    margin-top: 20px;
+}
+.redborderr{
+    height: 350px;
+    width: 650px;
+    background-color: transparent;
+    border: 3px solid red;
+    margin-left: 180px;
+    margin-top: -410px;
+    border-radius: 50px;
+    box-shadow: 4px 5px 7px gray;
+
+}
+button:hover{
+    opacity: 0.8;
+}
+.discount{
+    font-family:"Genos", sans-serif; 
+    color: white;
+    font-size: 60px;
+    margin-left: 890px;
+    margin-top: -350px;
+
+}
+.browseee{
+    margin-left: 890px;
+    margin-top: 50px;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(58, 58, 58);
+    border-top: none;
+    border-bottom: 4px solid red;
+    border-left: none;
+    border-right: none;
+}
+.comfortable{
+    color: white;
+    margin-left: 890px;
+}
+/* Content-1 Css Ending */
+/* Content-2 Css Starting */
+.comfort{
+    font-family: "Genos", sans-serif;
+    font-weight: 700;
+    font-size: 23px;
+    color: white;
+}
+.we{
+    color: white;
+    font-family: "Genos", sans-serif;
+    margin-left: 200px;
+    font-size: 40px;
+    padding-top: 100px;
+}
+.insole{
+    color: white;
+    margin-left: 200px;
+    padding-top: 15px;
+    color: rgb(170, 169, 169);
+
+}
+.footerbtn{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 200px;
+    margin-top: 50px;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom-color: rgb(255, 0, 0) ;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    background-color: rgb(45, 45, 45);
+    color: white;
+}
+.content{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+
+}
+.points{
+    color: white;
+    font-family: "Genos", sans-serif;
+    margin-left: 200px;
+    margin-top: 15px;
+    font-weight: 700;
+    line-height: 2;
+    font-size: 18px;
+}
+.contentimage{
+    margin-top: -700px;
+}
+.contentimagee{
+    margin-top: -400px;
+    margin-left: 830px;
+}
+.contentimage{
+    margin-top: 20px;
+}
+.comfort{
+    margin-top: -200px;
+    margin-left: 655px;
+}
+.greylogo{
+    height: 170px;
+    margin-left: 700px;
+}
+.greylogoo{
+    margin-top: -450px;
+}
+.box{
+    height: 400px;
+    width: 500px;
+    clip-path: polygon(0 0, 100% 14%, 100% 88%, 0% 100%);
+    margin-left: 750px;
+    border: 2px solid red;
+    
+}
+.redborder{
+    height: 350px;
+    width: 500px;
+    background-color: transparent;
+    border: 3px solid red;
+    margin-top: -400px;
+    margin-left: 700px;
+    border-radius: 40px;
+    box-shadow: 5px 4px 7px grey;
+}
+/* Content-2 Css Ending */
+/* Footer Css Starting*/
+.column{
+    display: flex;
+    height: 400px;
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: rgb(14, 14, 14);
+}
+.column2, .column3, .column4{
+    list-style-type: none;
+    color: white;
+    line-height: 1.8;
+    margin-left: 210px;
+    padding-top: 95px;
+}
+.footerimage{
+    height: 110px;
+    margin-left: 110px;
+    padding-top: 50px;
+}
+.footerparagraph{
+    font-family: "Genos", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+}
+.footerbutton{
+    background-color: red;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    width: 45px;
+    height: 23px;
+}
+.diffcolor{
+    color: rgb(182, 182, 182);
+}
+.lastpart{
+    height: 50px;
+    background-color: black;
+    width: 100%;
+}
+.lastparagraph{
+    color: white;
+    padding-left: 190px;
+    padding-top: 14px;
+}
+.lastimg1{
+    height: 26px;
+    margin-left: 1000px;
+}
+
+.lastimg2{
+    height: 28px;
+    margin-left: 20px;
+}
+.lastimgg{
+    margin-top: -23px;
+}
+.lastimg4{
+    height: 27px;
+    margin-left: 20px;
+}
+.lastimgg3{
+    height: 37px;
+}
+.hii{
+    margin-top: -47px;
+    margin-left: 1153px;
+}
+.column2,.column3,.column4{
+    cursor: pointer;
+}
+/* Footer Css Ending*/
+.latest:hover{
+ background: linear-gradient(90deg, #00dbde,#fc00ff,red,yellow,green);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ transition: 0.5s;
+}

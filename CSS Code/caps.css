@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.tshirt1{
+    height: 500px;
+    margin-top: 70px;
+    margin-left: 200px;
+}
+.tshirtt{
+    height: 645px;
+    width: 100%;
+}
+.namerate{
+    font-family: "Genos", sans-serif;
+    font-size: 19px;
+    margin-left: 750px;
+    margin-top: -513px;
+}
+.a1{
+    height: 100px;
+    border: 1px solid black;
+}
+.a{
+    margin-left: 750px;
+    margin-top: 20px;
+}
+.paragraph{
+    font-size: 18px;
+    margin-left: 750px;
+    margin-top: 20px;
+}
+.btn1{
+    width: 250px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 30px;
+    border: none;
+    margin-left: 780px;
+    margin-top: 20px;
+}
+.btn2{
+    width: 250px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 30px;
+    margin-left: 780px;
+    margin-top: 20px;
+}
+.tshirttt{
+    height: 645px;
+    width: 100%;
+    background-color: rgb(134, 134, 134);
+}
+.tshirt2{
+    height: 500px;
+    margin-top: 70px;
+    margin-left: 700px;
+}
+.namerate2{
+    font-family: "Genos", sans-serif;
+    font-size: 19px;
+    margin-left: 200px;
+    margin-top: -470px;
+}
+.paragraph2{
+    font-size: 18px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.btn3{
+    width: 250px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    border: 2px solid rgb(68, 68, 68);
+    border-radius: 10px;
+    margin-left: 250px;
+    margin-top: 40px;
+}
+.tshirt2{
+    height: 500px;
+    margin-top: 70px;
+    margin-left: 700px;
+}
+.tshirtt{
+    height: 645px;
+    width: 100%;
+}
+.namerate1{
+    font-family: "Genos", sans-serif;
+    font-size: 19px;
+    margin-left: 200px;
+    margin-top: -513px;
+}
+.a1{
+    height: 100px;
+    border: 1px solid black;
+}
+.b{
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.paragraphh{
+    font-size: 18px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.btn4{
+    width: 250px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 30px;
+    border: none;
+    margin-left: 45px;
+    margin-top: 20px;
+}
+.btn5{
+    width: 250px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 30px;
+    margin-left: 45px;
+    margin-top: 20px;
+}
+.tshirtttt{
+    height: 645px;
+    width: 100%;
+    margin-top: 80px;
+}
+/* Navigation Bar CSS Starting */
+.fulllogo{
+    height: 110px;
+    margin-left: 150px;
+    margin-top: -25px;
+}
+.flex{
+    display: flex;
+    height: 70px;
+    width: 100%;
+    background-color: rgb(45,45,45);
+}
+.navbar{
+    display: flex;
+}
+.navbar li{
+    list-style-type: none;
+    color: white;
+}
+.li1,.li2,.li3,.li4{
+    margin-top: 26px;
+
+}
+.li1{
+    margin-left: 100px;
+}
+.li2,.li3,.li4{
+    margin-left: 30px;
+}
+.img1,.img2,.img3{
+    height: 26px;
+}
+.img1{
+    margin-left: 35px;
+    margin-top: 20px;
+}
+.img2,.img3{
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.shopnow{
+    margin-left: 90px;
+    width: 180px;
+    padding-top: 10px ;
+    padding-bottom: 10px ;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: 3px solid red;
+    margin-top: 15px;
+    font-size: 17px
+}
+/* Navigation Bar CSS Ending */
+/* Footer Css Starting*/
+.column{
+    display: flex;
+    height: 400px;
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: rgb(14, 14, 14);
+}
+.column2, .column3, .column4{
+    list-style-type: none;
+    color: white;
+    line-height: 1.8;
+    margin-left: 210px;
+    padding-top: 95px;
+}
+.footerimage{
+    height: 110px;
+    margin-left: 110px;
+    padding-top: 50px;
+}
+.footerparagraph{
+    font-family: "Genos", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+}
+.footerbutton{
+    background-color: red;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    width: 45px;
+    height: 23px;
+}
+.diffcolor{
+    color: rgb(182, 182, 182);
+}
+.lastpart{
+    height: 50px;
+    background-color: black;
+    width: 100%;
+}
+.lastparagraph{
+    color: white;
+    padding-left: 190px;
+    padding-top: 14px;
+}
+.lastimg1{
+    height: 26px;
+    margin-left: 1000px;
+}
+
+.lastimg2{
+    height: 28px;
+    margin-left: 20px;
+}
+.lastimgg{
+    margin-top: -23px;
+}
+.lastimg4{
+    height: 27px;
+    margin-left: 20px;
+}
+.lastimgg3{
+    height: 37px;
+}
+.hii{
+    margin-top: -47px;
+    margin-left: 1153px;
+}
+.column2,.column3,.column4{
+    cursor: pointer;
+}
+/* Footer Css Ending*/
+.tshirt1:hover{
+    transform: scale(1.03);
+}
+.tshirt2:hover{
+    transform: scale(1.03);
+}
